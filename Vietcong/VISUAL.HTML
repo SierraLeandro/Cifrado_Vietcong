@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador</title>
+    <link rel="stylesheet" href="MAQUILLAJE.CSS">
+</head>
+
+<body>
+
+    <header>
+        <h1>GOOOOD MORNING VIETNAM</h1>
+        <p>WHAT IS YOUR CODE?</p>
+    </header>
+
+    <main>
+        <div class="controles">
+            <label for="accion">¿Qué deseas hacer?</label>
+            <select id="accion">
+                <option value="1">1 - CIFRAR texto</option>
+                <option value="2">2 - DESCIFRAR código</option>
+            </select>
+
+            <label for="entrada">Texto</label>
+            <input type="text" id="entrada" placeholder="Escribe aquí...">
+
+            <button id="btnEjecutar">EJECUTAR</button>
+        </div>
+
+        <h2>Resultado</h2>
+
+        <p id="textoOriginal">Aquí aparecerá el texto original.</p>
+
+        <p id="textoResultado">Aquí aparecerá el resultado.</p>
+    </main>
+
+    <script src="CIFRADOR.js"></script>
+    <img src="NicePng_rambo-png_9632794.png" class="rambo" alt="Rambo">
+</body>
+
+</html>
